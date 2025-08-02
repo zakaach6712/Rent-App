@@ -1,0 +1,31 @@
+/* src/pages/ListingDetails.css */
+.listing-details img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 4px;
+  margin: 1rem 0;
+}
+/* src/pages/ListingDetails.css */
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 1rem 0;
+}
+.carousel img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+.carousel .nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.carousel .prev { left: 10px; }
+.carousel .next { right: 10px; }

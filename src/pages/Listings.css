@@ -1,0 +1,13 @@
+/* src/pages/Listings.css */
+.listings-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.listings-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  
+}
